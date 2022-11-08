@@ -1,0 +1,14 @@
+{
+  "name": "http_helpdesk_backend",
+  "version": "1.0.0",
+  "description": "project for knoweledge to backend development",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "v.korneev",
+  "license": "ISC",
+  "dependencies": {
+    "forever": "^4.0.3"
+  }
+}
