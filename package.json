@@ -4,9 +4,13 @@
   "description": "project for knoweledge to backend development",
   "main": "server.js",
   "scripts": {
+    "prestart": "npm install",
     "start": "forever server.js",
     "whatch": "forever -w server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "11.x"
   },
   "author": "v.korneev",
   "license": "ISC",
